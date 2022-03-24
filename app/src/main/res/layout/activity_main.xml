@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="194dp"
-        android:layout_height="43dp"
+        android:layout_width="185dp"
+        android:layout_height="33dp"
         android:layout_marginTop="4dp"
         android:scrollbarSize="30dp"
         android:text=" Calculator"
@@ -39,6 +39,7 @@
         android:id="@+id/num2"
         android:layout_width="361dp"
         android:layout_height="27dp"
+        android:layout_marginTop="30dp"
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Số thứ 2"
@@ -46,12 +47,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/num1" />
+        app:layout_constraintTop_toTopOf="@+id/num1" />
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="369dp"
-        android:layout_height="26dp"
+        android:layout_width="367dp"
+        android:layout_height="37dp"
         android:background="@android:color/white"
         android:text="Kết quả"
         android:textColorLink="#673AB7"
